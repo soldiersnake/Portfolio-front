@@ -450,6 +450,19 @@ textarea{
   } */
 }
 
+@media(max-width:400px){
+  #header{
+    border-bottom: none;
+  }
+  #menu{
+    margin-bottom: 2%;
+    font-size: 13px;
+  }
+  #slider{
+    margin-top: 10px;
+  }
+}
+
 /* EFECTO MAQUINA DE ESCRIBIR */
 @keyframes typewriter {
   from { width: 0; }
