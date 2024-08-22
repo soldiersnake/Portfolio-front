@@ -21,10 +21,10 @@ export const Header = () => {
                         <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Inicio</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/blog" className={({ isActive }) => isActive ? "active" : ""}>Blog</NavLink>
+                        <NavLink to="/sobre-mi" className={({ isActive }) => isActive ? "active" : ""}>Sobre Mi</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/article" className={({ isActive }) => isActive ? "active" : ""}>Pagina 1</NavLink>
+                        <NavLink to="/formacion-profesional" className={({ isActive }) => isActive ? "active" : ""}>Estudios</NavLink>
                     </li>
                     <li>
                         <NavLink to="/formulario" className={({ isActive }) => isActive ? "active" : ""}>Contactame</NavLink>

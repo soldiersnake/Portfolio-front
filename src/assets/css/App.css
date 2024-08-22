@@ -157,8 +157,9 @@ body{
 #content{
   width: 70%;
   float: left;
-  min-height: 650px;
+  min-height: 500px;
   margin-right: 25px;
+  margin-bottom: 5%;
 }
 
 #sidebar{
@@ -401,9 +402,9 @@ textarea{
 
   #sidebar{
       float: none;
-      /* width: 60%; */
-      /* margin: 0px auto; */
-      /* margin-bottom: 50px; */
+      width: 60%;
+      margin: 0px auto;
+      margin-bottom: 25px;
   }
 
   #slider h1{

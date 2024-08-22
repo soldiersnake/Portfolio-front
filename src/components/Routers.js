@@ -16,8 +16,8 @@ export const Routers = () => {
     }
       <Routes>
         <Route path="/" element={<Home title={'Bienvenido a mi Blog'}/>} />
-        <Route path="/blog" element={<Blog title={'Blog'}/>} />
-        <Route path="/article" element={<Article title={'Article'}/>} />
+        <Route path="/formacion-profesional" element={<Blog title={'Formacion Profesional'}/>} />
+        <Route path="/sobre-mi" element={<Article title={'Sobre Mi'}/>} />
         <Route path="/formulario" element={<Formulario title={'Contactame'}/>} />
         {/* Genera que siempre vayamos al home '/' si la ruta no es encontrada */}
         <Route path="*" element={<Navigate to="/" title={'Error'}/>} />
