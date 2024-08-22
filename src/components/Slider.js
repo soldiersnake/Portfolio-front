@@ -40,8 +40,8 @@ export const Slider = () => {
     
   return (
     <>
-        <div id="slider" className={location.pathname === '/' ? "slider-big" : "slider-small"}>
-            <h1 className={'typewriter-container'} style={{ fontFamily: "'Edu AU VIC WA NT Hand', cursive", fontSize:50 }}>
+        <div id="slider" className={location.pathname === '/' ? "slider" : "slider-small"}>
+            <h1 className={'typewriter-container'} style={{ fontFamily: "'Edu AU VIC WA NT Hand', cursive" }}>
               {location.pathname === '/'              ? 'Bienvenido a mi Portfolio'
                 : location.pathname === '/blog'       ? 'Blog'
                 : location.pathname === '/formulario' ? 'Contactame'
