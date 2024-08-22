@@ -24,10 +24,10 @@ export const Header = () => {
                         <NavLink to="/blog" className={({ isActive }) => isActive ? "active" : ""}>Blog</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/formulario" className={({ isActive }) => isActive ? "active" : ""}>Formulario</NavLink>
+                        <NavLink to="/article" className={({ isActive }) => isActive ? "active" : ""}>Pagina 1</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/article" className={({ isActive }) => isActive ? "active" : ""}>Pagina 1</NavLink>
+                        <NavLink to="/formulario" className={({ isActive }) => isActive ? "active" : ""}>Contactame</NavLink>
                     </li>
                     {/* <li>
                         <NavLink to="#" className={({ isActive }) => isActive ? "active" : ""}>Pagina 2</NavLink>
