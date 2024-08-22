@@ -1,6 +1,6 @@
 import React from 'react'
 import logoMarian from '../assets/images/Logo-Marian-2.png'
-import { Link, NavLink } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 
 export const Header = () => {
   return (

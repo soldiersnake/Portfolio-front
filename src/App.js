@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import "./assets/css/App.css";
 import { Header } from "./components/Header";
-import { Slider } from "./components/Slider";
 import { Footer } from "./components/Footer";
 import { Routers } from './components/Routers';
 
@@ -12,7 +11,6 @@ function App() {
       <div className="App">
         {/* Aquí puedes colocar un navbar o links */}
         <Header />
-
        
         <Routers/> {/* EN ESTE COMPONETE MANEJO LAS RUTAS */}
         {/* <Routes>
