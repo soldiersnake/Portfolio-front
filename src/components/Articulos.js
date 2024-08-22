@@ -15,7 +15,7 @@ export const Articulos = () => {
 
           <h2>Articulo de prueba</h2>
           <span className="date">Hace 5 min</span>
-          <a href="/">Leer mas</a>
+          <a href="#">Leer mas</a>
           <div className="clearfix"></div>
         </article>
       </div>
